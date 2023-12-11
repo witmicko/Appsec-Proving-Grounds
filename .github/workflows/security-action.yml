@@ -36,5 +36,5 @@ jobs:
           rules_excluded: ${{ github.event.inputs.rules_excluded || env.DEFAULT_RULES_EXCLUDED }}
           mixpanel_project_id: ${{secrets.APPSEC_MIXPANEL_PROJECT_ID}}
           mixpanel_api_secret: ${{secrets.APPSEC_MIXPANEL_API_SECRET}}
-          appsec_slack_webhook: ${{secrets.APPSEC_SLACK_WEBHOOK}}
+          slack_webhook: ${{secrets.APPSEC_SLACK_WEBHOOK}}
           
