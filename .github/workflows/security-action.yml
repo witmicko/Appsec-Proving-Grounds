@@ -34,7 +34,7 @@ jobs:
           repo: ${{ github.repository }}
           paths_ignored: ${{ github.event.inputs.paths_ignored || env.DEFAULT_PATHS_IGNORED }}
           rules_excluded: ${{ github.event.inputs.rules_excluded || env.DEFAULT_RULES_EXCLUDED }}
+          mixpanel_project_id: ${{secrets.APPSEC_MIXPANEL_PROJECT_ID}}
           mixpanel_project_token: ${{secrets.APPSEC_MIXPANEL_PROJECT_TOKEN}}
-          mixpanel_api_secret: ${{secrets.APPSEC_MIXPANEL_API_SECRET}}
           slack_webhook: ${{secrets.APPSEC_SLACK_WEBHOOK}}
           
