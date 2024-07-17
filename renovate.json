@@ -1,11 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "packageRules": [
-    {
-      "matchDepTypes": ["dependencies", "devDependencies"],
-      "commitMessage": "Update dependency {{depName}} to v{{newVersion}}",
-      "matchUpdateTypes": ["major", "minor", "patch"]
-    }
-  ]
+  "vulnerabilityAlerts": {
+    "commitMessageSuffix": ""
+  }
 }
