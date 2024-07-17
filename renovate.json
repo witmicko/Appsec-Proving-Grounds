@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchDepTypes": ["dependencies", "devDependencies"],
-      "prTitle": "Update dependency {{depName}} to v{{newVersion}}",
+      "commitMessage": "Update dependency {{depName}} to v{{newVersion}}",
       "matchUpdateTypes": ["major", "minor", "patch"]
     }
   ]
