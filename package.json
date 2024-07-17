@@ -6,6 +6,6 @@
   "author": "MetaMask Application Team",
   "scripts": {},
   "dependencies": {
-    "lodash": "4.17.10"
+    "lodash": "4.17.20"
   }
 }
